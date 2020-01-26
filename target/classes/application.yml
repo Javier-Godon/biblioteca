@@ -1,0 +1,23 @@
+#Postgres
+datasources:
+  #Application
+  application:
+    url: jdbc:postgresql://127.0.0.1:5432/biblioteca
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+#Hibernate config
+spring:     
+  jpa:
+    hibernate:
+      #ddl-auto: create-drop
+      dialect: org.hibernate.dialect.PostgreSQL9Dialect
+      show_sql: true
+    properties.hibernate.temp.use_jdbc_metadata_defaults: false
+   
+    
+
+    
+    
+  

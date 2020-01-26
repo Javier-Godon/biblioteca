@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: biblioteca Maven Webapp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: usuario
+Implementation-Vendor-Id: com.montarelo
+Build-Jdk: 1.8.0_152
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/biblioteca
+Created-By: Maven Integration for Eclipse
+
